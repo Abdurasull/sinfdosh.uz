@@ -1,0 +1,107 @@
+.ok {
+	background-color: #fcf2de;
+	
+	
+}
+.ok1{
+	box-shadow: 0 0 20px black;
+	border-radius: 10px;
+}
+
+@media screen and (min-width: 1000px)
+{
+	.iconka {
+	display: none;
+	}
+	}
+.container2{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	
+}
+.regester1{
+
+	display: flex;
+	text-align: center;
+	width: 40%;
+	height: 100%;
+	background-color: lavender;
+	border-radius: 10px;
+	box-shadow: 0 0 40px black;
+	margin-top: 30px;
+}
+.block1{
+	width: 100%;
+	height: 100%;
+	}
+
+@media screen and (max-width: 1000px){	
+.regester1{
+	display: flex;
+	width: 80%;
+	}
+}
+
+
+.QR{
+
+	color: black;
+	text-decoration: none;
+	margin-left: 10px;
+	font-size: 20px;
+	position: relative;
+	
+}
+.QR:before{
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: 5px;
+	bottom: -19px;
+	background-color: #c0c0c0;
+	border-radius: 10px;
+	
+}
+.QR2:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 5px;
+	bottom: -19px;
+	background-color: #f4a460;
+	border-radius: 10px;
+}
+
+
+.QR:hover:before{
+	width: 100%;
+}
+.ichki{
+	display: flex;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+.QRoyna{
+	display: block;
+	text-align: left;
+	padding-left: 10px;
+	align-content: center;
+	width: 50%;
+	padding-bottom: 100px;
+	border-radius: 0 0 0 10px;
+}
+.oyna{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	border-radius: 0 0 10px 0;
+}
+.pclass{
+	font-size: 13px;
+}
+.img1{
+	padding-bottom:40px;	
+}
